@@ -1,0 +1,164 @@
+@media screen and (max-width: 991px) {
+    .navbar .nav-links{
+        display: none;
+    }
+    .abt-container img{
+        margin-left: 6rem;
+    }
+    .questions{
+        gap: 2rem;
+    }
+    .review-list{
+        margin-inline: 1rem;
+    }
+    .footer-column {
+        flex: 1 1 calc(50% - 20px);
+      }
+      
+   .navbar .menubar{
+    display: block;
+    color: #000;
+   
+}
+.navbar .nav-links{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8vh;
+    margin-left: 0px;
+    background-color: #fa7861;
+    width: 100%;
+    font-size: 1.5rem;
+   padding: 7px;
+    z-index: 1;
+    left: -200%;
+    transition: 0.5s ease-in-out;
+}
+.navbar .nav-links.active{
+    left: 0%;
+    width: 100%;
+}
+}
+@media screen and (max-width: 787px ) {
+    .container .main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    .main .left .content{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+       
+      
+        
+    }
+    .main .left{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+      
+        margin-top: 1rem;
+    }
+    .content h1{
+        font-size: 3rem;
+    }
+    .abt-container img{
+        margin-left: 3rem;
+    }
+    .about .description{
+        width: 50%;
+    }
+    .nav-links{
+        display: none;
+        width: 100%;
+    }
+    .footer-column {
+        flex: 1 1 100%;
+      }
+}
+@media screen and (max-width: 550px) {
+    .container .about .about-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-container img{
+        width: 16rem;
+    }
+    .about .description{
+        width: 80%;
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+    .abt-container img{
+        margin: auto;
+    }
+    .feature-list .feature-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .feature-list .feature-item:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery-image{
+        width: 20rem;
+        height: 20rem;
+    }
+    .gallery-grid{
+        padding: 60px;
+    }
+    .FAQ .questions{
+        display: flex;
+        flex-direction: column;
+    }
+    .reviews .review-list {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 441px) {
+    .abt-container img{
+        margin: auto;
+        width: 12rem;
+    }
+    .about .description{
+        width: 100%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .about{
+        width: 100%;
+    }
+    .description p{
+        width: 80%;
+    }
+    .main .content h1{
+        font-size: 2.5rem;
+    }
+    .buy-btn{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+    .feature-item img{
+        width: 15rem;
+    }
+    .gallery-grid{
+        margin: auto;
+    }
+    .gallery-image{
+        width: 18rem;
+        height: 18rem;
+    }
+    .footer-column h3 {
+        font-size: 16px;
+      }
+      .footer-bottom {
+        font-size: 12px;
+        }
+}
